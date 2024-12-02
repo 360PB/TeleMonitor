@@ -1,0 +1,6 @@
+streamlit
+telethon
+aiosqlite
+python-dotenv
+PySocks
+streamlit-autorefresh
