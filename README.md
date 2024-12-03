@@ -60,7 +60,7 @@
 
 ## 配置
 
-
+**文件说明：**
 
 ```
 .
@@ -69,7 +69,23 @@
 ├── app.py            # Streamlit 页面展示模块
 ├── messages.db       # SQLite 数据库文件
 ├── media/            # 媒体文件目录
+├── .env
 
+```
+
+**.env**
+
+```
+# Telegram API 配置
+TELEGRAM_API_ID="xxxxxxxx"
+TELEGRAM_API_HASH="xxxxxxxxxxxxxxxxxxxxxxxxx"
+DEFAULT_CHANNEL=@NewQuark
+
+# 代理配置
+PROXY_ENABLED=true
+PROXY_TYPE=http
+PROXY_ADDRESS=127.0.0.1
+PROXY_PORT=7890
 ```
 
 
