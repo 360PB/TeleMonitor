@@ -11,7 +11,7 @@ Telegram频道 实时监听、查询和获取历史消息
 - [ ] 页面实时显示新消息
 - [ ] 获取历史消息
 
-### 获取Telegram api_id
+### 获取Telegram api_id和**api_hash**
 
 ----
 
