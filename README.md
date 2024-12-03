@@ -1,26 +1,30 @@
 # TeleMonitor
-Telegram 实时监听、查询和获取历史消息
+Telegram频道 实时监听、查询和获取历史消息
 
+暂时监听频道：https://t.me/NewQuark
 
+群组: [@Quark_Share_Group](https://t.me/Quark_Share_Group)
 
 ##  功能
 
-- 
+- [x] 实时监控@NewQuark新消息，获取后存入数据库
+- [ ] 页面实时显示新消息
+- [ ] 获取历史消息
 
 ### 获取Telegram api_id
 
 ----
 
-登录 Telegram 核心： [https://my.telegram.org](https://my.telegram.org/)
+- 登录 Telegram 核心： [https://my.telegram.org](https://my.telegram.org/)
 
-转到[“API开发工具”](https://my.telegram.org/apps)
+- 转到[“API开发工具”](https://my.telegram.org/apps)
 
-获得基本地址以及用户授权所需的**api_id**和**api_hash**参数
+- 获得基本地址以及用户授权所需的**api_id**和**api_hash**参数
+
 
 ## win整合包
 
-
-
+- [ ] 待发布
 
 
 
@@ -31,15 +35,14 @@ Telegram 实时监听、查询和获取历史消息
 
 - 需安装[Miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
 
-  
 
 ### 步骤
 
 1. **克隆仓库**
 
    ```
-   git clone https://github.com/yourusername/quark-netdisk-search.git
-   cd PanHub
+   git clone https://github.com/360PB/TeleMonitor.git
+   cd TeleMonitor
    ```
 
 2. **安装conda虚拟环境/依赖**
@@ -64,16 +67,16 @@ Telegram 实时监听、查询和获取历史消息
 
 ```
 .
-├── config.py         # 配置文件
+├── config.py         # 加载配置文件
 ├── controller.py     # 核心逻辑控制模块
 ├── app.py            # Streamlit 页面展示模块
 ├── messages.db       # SQLite 数据库文件
 ├── media/            # 媒体文件目录
-├── .env
+├── .env			  # 配置文件
 
 ```
 
-**.env**
+**手动创建.env**
 
 ```
 # Telegram API 配置
@@ -92,9 +95,9 @@ PROXY_PORT=7890
 
 ## 使用说明
 
-1. 
+参考页面
 
-   
+
 
 ## 贡献
 
