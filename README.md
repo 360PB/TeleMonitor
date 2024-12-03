@@ -64,18 +64,15 @@ Telegram频道 实时监听、查询和获取历史消息
 ## 配置
 
 **文件说明：**
-
 ```
 .
 ├── config.py         # 加载配置文件
 ├── controller.py     # 核心逻辑控制模块
-├── app.py            # Streamlit 页面展示模块
-├── messages.db       # SQLite 数据库文件
-├── media/            # 媒体文件目录
-├── .env			  # 配置文件
-
+├── app.py           # Streamlit 页面展示模块
+├── messages.db      # SQLite 数据库文件
+├── media/           # 媒体文件目录
+└── .env             # 配置文件
 ```
-
 **手动创建.env**
 
 ```
