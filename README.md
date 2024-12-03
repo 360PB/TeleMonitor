@@ -7,7 +7,7 @@ Telegram 实时监听、查询和获取历史消息
 
 - 
 
-### 获取api_id
+### 获取Telegram api_id
 
 ----
 
