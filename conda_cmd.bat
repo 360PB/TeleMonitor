@@ -33,7 +33,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-set "PIPENV_PYPI_MIRROR=https://mirrors.aliyun.com/pypi/simple"
+echo https://mirrors.aliyun.com/pypi/simple
 set "HF_ENDPOINT=https://hf-mirror.com"
 
 
@@ -41,7 +41,7 @@ echo 设置环境变量成功
 
 
 echo 安装依赖
-::pip install -r requirements.txt
+echo pip install -r requirements.txt
 ::conda deactivate
 
 
